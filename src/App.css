@@ -1,0 +1,16 @@
+body {
+  background: url("./images/home.png") no-repeat center fixed;
+  background-size: auto;
+  -webkit-background: cover;
+  -moz-webkit-background: cover;
+  -o-webkit-background: cover;
+  background: cover;
+  background-size: cover;
+}
+html, body {
+  height: 100%;
+  margin: 0px;
+}
+#root {
+  height: 100%;
+}
