@@ -1,6 +1,6 @@
 # Joonas Virmajoki homepage
 
-**Live website:** https://jvirma.github.io/corona-tracker/
+**Live website:** https://joonasvirmajoki.me/
 
 ---
 
