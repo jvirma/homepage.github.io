@@ -33,4 +33,7 @@
  
 </p>
 
+#### Credits
+
+"80/20 Coding" YouTube React portfolio tutorial
 
