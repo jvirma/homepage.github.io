@@ -20,7 +20,6 @@ import {
   AssignmentInd,
   Home,
   Apps,
-  ContactMail
 } from "@material-ui/icons";
 import avatar from "../images/avatar.jpg";
 import logo2 from "../images/logo5.png";

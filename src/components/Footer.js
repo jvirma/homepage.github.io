@@ -6,7 +6,6 @@ import {
 import {
   LinkedIn,
   GitHub,
-  Instagram,
   ContactMail
 } from "@material-ui/icons"
 const useStyles = makeStyles({

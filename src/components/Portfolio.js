@@ -53,9 +53,6 @@ const Portfolio = () => {
         <Grid
           container
           style={{ background: "#233" }}
-          justify="center"
-          alignContent="center"
-          alignItems="center"
           alignItems="stretch"
         >
           {/* Project 1 */}
