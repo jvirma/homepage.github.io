@@ -23,6 +23,7 @@ import {
   ContactMail
 } from "@material-ui/icons";
 import avatar from "../images/avatar.jpg";
+import logo2 from "../images/logo5.png";
 
 // CSS STYLES
 
@@ -45,7 +46,7 @@ const useStyles = makeStyles(theme=>({
   },
   listHorizontal: {
     display: "none",
-    [theme.breakpoints.up("sm")]: {
+    [theme.breakpoints.up("md")]: {
       display: "flex",
     }
   },
@@ -124,10 +125,12 @@ const Navbar = () => {
     <Box component="nav">
       <AppBar position="static" style={{background:"black"}}>
         <Toolbar>
+          <img src={logo2} alt="logo" style={{position:"absolute", left:"50%", top: '50%', transform: 'translate(-50%, -50%)', maxHeight:"50px"}}/>
           <MenuItem className={classes.parent} button onClick={toggleSlider("right", true)}>
             <ListItemIcon className={classes.child}><Dehaze style={{color:"#cc5200"}} /></ListItemIcon>
           </MenuItem>
           <List className={classes.listHorizontal}>
+          
             {menuItems.map((lsItem, key)=>
               <ListItem className={classes.parent} key={key} button component={Link} to={lsItem.listPath}>
                 <ListItemText className={classes.child} component={Link} to={lsItem.listPath} primary={lsItem.listText}/>
@@ -144,6 +147,7 @@ const Navbar = () => {
           </MobileRightMenuSlider>
           
         </Toolbar>
+        
       </AppBar>
       
     </Box>

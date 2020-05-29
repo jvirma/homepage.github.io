@@ -144,7 +144,7 @@ const Resume = () => {
           <Typography variant="body1" aligh="center" style={{color:"#99ccff"}}>
             The University of Eastern Finland
           </Typography>
-          <Typography variant="subtitle1" aligh="center" style={{color:"tan"}}>
+          <Typography variant="subtitle1" aligh="center" style={{color:"#ffe0b2"}}>
             Summer jobs (2011-2012). I was part of MOPSI-project. I updated bus schedules with Excel and editing orienteering maps with Photoshop.
           </Typography> 
         </Box>
@@ -155,7 +155,7 @@ const Resume = () => {
           <Typography variant="body1" aligh="center" style={{color:"#99ccff"}}>
             The City of Joensuu
           </Typography>
-          <Typography variant="subtitle1" aligh="center" style={{color:"tan"}}>
+          <Typography variant="subtitle1" aligh="center" style={{color:"#ffe0b2"}}>
             Summer job 2013. Gardening work, grass cutting and raking.
           </Typography> 
         </Box>
@@ -169,7 +169,7 @@ const Resume = () => {
           <Typography variant="body1" aligh="center" style={{color:"#99ccff"}}>
             LUT University | Computer Science
           </Typography>
-          <Typography variant="subtitle1" aligh="center" style={{color:"tan"}}>
+          <Typography variant="subtitle1" aligh="center" style={{color:"#ffe0b2"}}>
           Modules covered included data structures and algorithms, logic and computation, programming basics (python), object-oriented programming, testing, security basics and many math courses.
           <br/><br/> I wrote my bachelor's thesis on "Tools for analysing social media users to support software development".
           </Typography> 
@@ -181,7 +181,7 @@ const Resume = () => {
           <Typography variant="body1" aligh="center" style={{color:"#99ccff"}}>
             LUT University | Computer Science
           </Typography>
-          <Typography variant="subtitle1" aligh="center" style={{color:"tan"}}>
+          <Typography variant="subtitle1" aligh="center" style={{color:"#ffe0b2"}}>
             Summer job (2016). Bachelor’s degree studies and reporting to supervisor.  
           </Typography> 
         </Box>
@@ -195,7 +195,7 @@ const Resume = () => {
           <Typography variant="body1" aligh="center" style={{color:"#99ccff"}}>
             LUT University | Computer Science
           </Typography>
-          <Typography variant="subtitle1" aligh="center" style={{color:"tan"}}>
+          <Typography variant="subtitle1" aligh="center" style={{color:"#ffe0b2"}}>
           Now completed 90/120 ECTS, only remaining Master's thesis. Modules covered included quality assurance, software maintenance, running a software project, data-intensive software systems, user experience design, architectures, AI MOOCs, software models and modelling.
           </Typography> 
         </Box>

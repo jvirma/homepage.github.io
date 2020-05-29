@@ -10,9 +10,11 @@ import {
   Button,
   Typography,
   CardActions,
-  Link,
 } from "@material-ui/core";
 import Navbar from "./Navbar";
+import GitHub from '@material-ui/icons/GitHub';
+import LanguageIcon from '@material-ui/icons/Language';
+import PlayCircleOutlineIcon from '@material-ui/icons/PlayCircleOutline';
 import project1 from "../images/project1.png";
 import project2 from "../images/project2.png";
 import project3 from "../images/project3.png";
@@ -90,8 +92,10 @@ const Portfolio = () => {
             </CardActionArea>
             <CardActions>
               <Button
+                startIcon={<PlayCircleOutlineIcon/>}
+                variant="contained"
                 size="small"
-                color="primary"
+                color="default"
                 href="https://marvelapp.com/3d1860b/screen/53019808"
                 target="_blank"
               >
@@ -133,16 +137,20 @@ const Portfolio = () => {
             </CardActionArea>
             <CardActions>
               <Button
+                startIcon={<GitHub/>}
+                variant="contained"
                 size="small"
-                color="primary"
+                color="default"
                 href="https://github.com/jvirma/spicebay"
                 target="_blank"
               >
                 Repository
               </Button>
               <Button
+                startIcon={<LanguageIcon/>}
+                variant="contained"
                 size="small"
-                color="primary"
+                color="default"
                 href="https://spicebay.herokuapp.com/"
                 target="_blank"
               >
@@ -181,7 +189,12 @@ const Portfolio = () => {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button size="small" color="primary" href="https://github.com/jvirma/homepage" target="_blank">
+              <Button startIcon={<GitHub/>}
+                variant="contained"
+                size="small"
+                color="default" 
+                href="https://github.com/jvirma/homepage" 
+                target="_blank">
                 Repository
               </Button>
             </CardActions>
@@ -220,16 +233,20 @@ const Portfolio = () => {
             </CardActionArea>
             <CardActions>
               <Button
+                startIcon={<GitHub/>}
+                variant="contained"
                 size="small"
-                color="textPrimary"
+                color="default"
                 href="https://github.com/jvirma/corona-tracker"
                 target="_blank"
               >
                 Repository
               </Button>
               <Button
+                startIcon={<LanguageIcon/>}
+                variant="contained"
                 size="small"
-                color="primary"
+                color="default"
                 href="https://jvirma.github.io/corona-tracker/"
                 target="_blank"
               >
@@ -268,17 +285,21 @@ const Portfolio = () => {
             </CardActionArea>
             <CardActions>
               <Button
+                startIcon={<GitHub/>}
+                variant="contained"
                 size="small"
-                color="primary"
+                color="default"
                 href="https://github.com/jvirma/finnkino-movies"
                 target="_blank"
               >
                 Repository
               </Button>
               <Button
+                startIcon={<LanguageIcon/>}
+                variant="contained"
                 size="small"
-                color="primary"
-                href="https://jvirma.github.io/corona-tracker/"
+                color="default"
+                href="https://jvirma.github.io/finnkino-movies/"
                 target="_blank"
               >
                 Live website
