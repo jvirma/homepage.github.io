@@ -158,47 +158,7 @@ const Portfolio = () => {
               </Button>
             </CardActions>
           </Grid>
-          {/* Project 3 */}
-          <Grid
-            item
-            component={Card}
-            xs={11}
-            sm={9}
-            md={6}
-            className={classes.cardContainer}
-          >
-            <CardActionArea>
-              <CardMedia
-                component="img"
-                alt="project 3"
-                height="140"
-                image={project3}
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5">
-                  Joonas Virmajoki homepage
-                </Typography>
-                <Typography
-                  gutterBottom
-                  varient="body2"
-                  component="p"
-                >
-                  This was my own project. I wanted to learn how to build cool
-                  websites and animations. I used React.js and Material-UI.
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-            <CardActions>
-              <Button startIcon={<GitHub/>}
-                variant="contained"
-                size="small"
-                color="default" 
-                href="https://github.com/jvirma/homepage" 
-                target="_blank">
-                Repository
-              </Button>
-            </CardActions>
-          </Grid>
+          
           {/* Project 4 */}
           <Grid
             item
@@ -303,6 +263,47 @@ const Portfolio = () => {
                 target="_blank"
               >
                 Live website
+              </Button>
+            </CardActions>
+          </Grid>
+          {/* Project 3 */}
+          <Grid
+            item
+            component={Card}
+            xs={11}
+            sm={9}
+            md={6}
+            className={classes.cardContainer}
+          >
+            <CardActionArea>
+              <CardMedia
+                component="img"
+                alt="project 3"
+                height="140"
+                image={project3}
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5">
+                  Joonas Virmajoki homepage
+                </Typography>
+                <Typography
+                  gutterBottom
+                  varient="body2"
+                  component="p"
+                >
+                  This was my own project. I wanted to learn how to build cool
+                  websites and animations. I used React.js and Material-UI.
+                </Typography>
+              </CardContent>
+            </CardActionArea>
+            <CardActions>
+              <Button startIcon={<GitHub/>}
+                variant="contained"
+                size="small"
+                color="default" 
+                href="https://github.com/jvirma/homepage" 
+                target="_blank">
+                Repository
               </Button>
             </CardActions>
           </Grid>
