@@ -35,18 +35,24 @@ const Footer = () => {
       className={classes.root}
         style={{padding: 0}}
         icon={<GitHub/>}
+        href="https://github.com/jvirma"
+        target="_blank"
       >
       </BottomNavigationAction>
       <BottomNavigationAction
       className={classes.root}
         style={{padding: 0}}
         icon={<LinkedIn/>}
+        href="https://www.linkedin.com/in/joonas-virmajoki-188a101a4/"
+        target="_blank"
       >
       </BottomNavigationAction>
       <BottomNavigationAction
       className={classes.root}
         style={{padding: 0}}
         icon={<ContactMail/>}
+        href="mailto:jorbeful@gmail.com"
+        target="_blank"
       >
       </BottomNavigationAction>
       

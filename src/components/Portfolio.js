@@ -17,16 +17,25 @@ import project1 from "../images/project1.png";
 import project2 from "../images/project2.png";
 import project3 from "../images/project3.png";
 import project4 from "../images/project4.png";
+import project5 from "../images/project5.png";
 
 const useStyles = makeStyles({
   mainContainer: {
     height: "100%",
     background: "#233",
+    "& .MuiCard-root":{
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "space-between",
+    }
   },
   cardContainer: {
     maxWidth: 450,
     margin: "2rem auto",
+    
+    
   },
+  
 });
 
 const Portfolio = () => {
@@ -71,7 +80,6 @@ const Portfolio = () => {
                 <Typography
                   gutterBottom
                   varient="body2"
-                  color="textSecondary"
                   component="p"
                 >
                   Our team made application that monitors the safety locking
@@ -115,7 +123,6 @@ const Portfolio = () => {
                 <Typography
                   gutterBottom
                   varient="body2"
-                  color="textSecondary"
                   component="p"
                 >
                   Group project. We needed to make multi-location and
@@ -166,7 +173,6 @@ const Portfolio = () => {
                 <Typography
                   gutterBottom
                   varient="body2"
-                  color="textSecondary"
                   component="p"
                 >
                   This was my own project. I wanted to learn how to build cool
@@ -175,7 +181,7 @@ const Portfolio = () => {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button size="small" color="primary" href="#" target="_blank">
+              <Button size="small" color="primary" href="https://github.com/jvirma/homepage" target="_blank">
                 Repository
               </Button>
             </CardActions>
@@ -203,7 +209,6 @@ const Portfolio = () => {
                 <Typography
                   gutterBottom
                   varient="body2"
-                  color="textSecondary"
                   component="p"
                 >
                   During corona lockdown I wanted to develop my programming
@@ -216,7 +221,7 @@ const Portfolio = () => {
             <CardActions>
               <Button
                 size="small"
-                color="primary"
+                color="textPrimary"
                 href="https://github.com/jvirma/corona-tracker"
                 target="_blank"
               >
@@ -225,7 +230,55 @@ const Portfolio = () => {
               <Button
                 size="small"
                 color="primary"
-                href="https://joonasvirmajoki.me/corona-tracker/"
+                href="https://jvirma.github.io/corona-tracker/"
+                target="_blank"
+              >
+                Live website
+              </Button>
+            </CardActions>
+          </Grid>
+          {/* Project 5 */}
+          <Grid
+            item
+            component={Card}
+            xs={11}
+            sm={9}
+            md={6}
+            className={classes.cardContainer}
+          >
+            <CardActionArea>
+              <CardMedia
+                component="img"
+                alt="project 5"
+                height="140"
+                image={project5}
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5">
+                  Finnkino movies
+                </Typography>
+                <Typography
+                  gutterBottom
+                  varient="body2"
+                  component="p"
+                >
+                  Training and learning more React.js. Handy application to search Finnkino movies (React.js, Material-UI, Finnkino API)
+                </Typography>
+              </CardContent>
+            </CardActionArea>
+            <CardActions>
+              <Button
+                size="small"
+                color="primary"
+                href="https://github.com/jvirma/finnkino-movies"
+                target="_blank"
+              >
+                Repository
+              </Button>
+              <Button
+                size="small"
+                color="primary"
+                href="https://jvirma.github.io/corona-tracker/"
                 target="_blank"
               >
                 Live website

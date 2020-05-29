@@ -135,7 +135,6 @@ const Resume = () => {
             Joensuun Niinivaaran lukio
           </Typography>
           <Typography variant="subtitle1" aligh="center" style={{color:"tan"}}>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?
           </Typography> 
         </Box>
         <Box component="div" className={classes.timeLineItem}>
@@ -197,7 +196,7 @@ const Resume = () => {
             LUT University | Computer Science
           </Typography>
           <Typography variant="subtitle1" aligh="center" style={{color:"tan"}}>
-          Now completed 90/120 ECTS, a Master's thesis only remaining. Modules covered included quality assurance, software maintenance, running a software project, data-intensive software systems, user experience design, architectures, AI MOOCs, software models and modelling.
+          Now completed 90/120 ECTS, only remaining Master's thesis. Modules covered included quality assurance, software maintenance, running a software project, data-intensive software systems, user experience design, architectures, AI MOOCs, software models and modelling.
           </Typography> 
         </Box>
         <Box component="div" className={classes.timeLineItem}>
