@@ -82,7 +82,7 @@ const Portfolio = () => {
                   component="p"
                 >
                   Our team made application that monitors the safety locking
-                  statuses of a cardboard machines during maintenance break. My
+                  statuses of cardboard machines during maintenance break. My
                   main role in the project was to be UI/UX designer.
                 </Typography>
               </CardContent>
