@@ -124,7 +124,9 @@ const Navbar = () => {
     <Box component="nav">
       <AppBar position="static" style={{background:"black"}}>
         <Toolbar>
-          <img src={logo2} alt="logo" style={{position:"absolute", left:"50%", top: '50%', transform: 'translate(-50%, -50%)', maxHeight:"50px"}}/>
+          <a href="/">
+            <img src={logo2}  alt="logo" style={{position:"absolute", left:"50%", top: '50%', transform: 'translate(-50%, -50%)', maxHeight:"50px"}}/>
+          </a>
           <MenuItem className={classes.parent} button onClick={toggleSlider("right", true)}>
             <ListItemIcon className={classes.child}><Dehaze style={{color:"#cc5200"}} /></ListItemIcon>
           </MenuItem>

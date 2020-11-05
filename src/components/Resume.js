@@ -1,6 +1,6 @@
 import React from 'react';
 import {makeStyles} from "@material-ui/core/styles";
-import {Typography, Box} from "@material-ui/core";
+import {Typography, Box, Link} from "@material-ui/core";
 import Navbar from './Navbar';
 import CountUp from 'react-countup';
 
@@ -108,6 +108,7 @@ const useStyles = makeStyles(theme =>({
 
 const Resume = () => {
   const classes = useStyles();
+  const preventDefault = (event) => event.preventDefault();
   return (
     <>
     <Navbar/>
@@ -196,7 +197,11 @@ const Resume = () => {
             LUT University | Computer Science
           </Typography>
           <Typography variant="subtitle1" aligh="center" style={{color:"#ffe0b2"}}>
-          Now completed 90/120 ECTS, only remaining Master's thesis. Modules covered included quality assurance, software maintenance, running a software project, data-intensive software systems, user experience design, architectures, AI MOOCs, software models and modelling.
+          Modules covered included quality assurance, software maintenance, running a software project, data-intensive software systems, user experience design, architectures, AI MOOCs, software models and modelling.
+          <br/><br/> I wrote my master's thesis on "Detecting code smells using artificial intelligence - a prototype" which was approved with grade of 5 (excellent). &nbsp; 
+          <Link href="https://lutpub.lut.fi/handle/10024/161673" target="_blank" style={{color:"#ffffff"}}>
+            {'*Link*'}
+          </Link>
           </Typography> 
         </Box>
         <Box component="div" className={classes.timeLineItem}>
