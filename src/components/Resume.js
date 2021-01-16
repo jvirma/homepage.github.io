@@ -108,7 +108,7 @@ const useStyles = makeStyles(theme =>({
 
 const Resume = () => {
   const classes = useStyles();
-  const preventDefault = (event) => event.preventDefault();
+  //const preventDefault = (event) => event.preventDefault();
   return (
     <>
     <Navbar/>

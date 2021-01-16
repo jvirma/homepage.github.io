@@ -14,3 +14,11 @@ html, body {
 #root {
   height: 100%;
 }
+
+.portCardCl {
+  display: flex;
+  flex-direction: column;
+  height:100%;
+  padding: 10px;
+}
+
