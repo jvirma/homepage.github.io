@@ -14,7 +14,6 @@ import Navbar from "./Navbar";
 import GitHub from '@material-ui/icons/GitHub';
 import LanguageIcon from '@material-ui/icons/Language';
 import LibraryBooksIcon from '@material-ui/icons/LibraryBooks';
-import PlayCircleOutlineIcon from '@material-ui/icons/PlayCircleOutline';
 import PlayCircleFilledWhiteIcon from '@material-ui/icons/PlayCircleFilledWhite';
 import project1 from "../images/project1.png";
 import project2 from "../images/project2.png";
@@ -72,7 +71,7 @@ const Portfolio = () => {
                 height="140"
                 image={project1}
               />
-              <CardContent class="portCardCl">
+              <CardContent className="portCardCl">
                 <Typography gutterBottom variant="h5">
                   Locking status app to Stora Enso ("Running a software project"
                   course)
@@ -116,7 +115,7 @@ const Portfolio = () => {
                 height="140"
                 image={project2}
               />
-              <CardContent class="portCardCl">
+              <CardContent className="portCardCl">
                 <Typography gutterBottom variant="h5">
                   Spicebay online shop ("Data-Intensive Software Systems"
                   coursework)
@@ -171,7 +170,7 @@ const Portfolio = () => {
                 height="140"
                 image={project4}
               />
-              <CardContent class="portCardCl">
+              <CardContent className="portCardCl">
                 <Typography gutterBottom variant="h5">
                   Corona Tracker
                 </Typography>
@@ -225,7 +224,7 @@ const Portfolio = () => {
                 height="140"
                 image={project5}
               />
-              <CardContent class="portCardCl">
+              <CardContent className="portCardCl">
                 <Typography gutterBottom variant="h5">
                   Finnkino movies
                 </Typography>
@@ -276,7 +275,7 @@ const Portfolio = () => {
                 height="140"
                 image={project3}
               />
-              <CardContent class="portCardCl">
+              <CardContent className="portCardCl">
                 <Typography gutterBottom variant="h5">
                   Joonas Virmajoki homepage
                 </Typography>
@@ -316,7 +315,7 @@ const Portfolio = () => {
                 height="140"
                 image={project6}
               />
-              <CardContent class="portCardCl">
+              <CardContent className="portCardCl">
                 <Typography gutterBottom variant="h5">
                   Detecting code smells using artificial intelligence
                 </Typography>
@@ -376,7 +375,7 @@ const Portfolio = () => {
                 height="140"
                 image={project7}
               />
-              <CardContent class="portCardCl">
+              <CardContent className="portCardCl">
                 <Typography gutterBottom variant="h5">
                   TIMOTEI - SmartPost app
                 </Typography>
@@ -427,7 +426,7 @@ const Portfolio = () => {
                 height="140"
                 image={project8}
               />
-              <CardContent class="portCardCl">
+              <CardContent className="portCardCl">
                 <Typography gutterBottom variant="h5">
                   Multiplayer Snake game
                 </Typography>
