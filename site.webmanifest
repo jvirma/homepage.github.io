@@ -1,7 +1,7 @@
 {
     "name": "homepage",
     "scope": "/homepage/",
-    "start_url": "/homepage/",
+    "start_url": ".",
     "short_name": "",
     "icons": [
         {
